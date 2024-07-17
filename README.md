@@ -47,7 +47,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-query = { "timezone": "America/New_York" }
+query = { "city": "Harare" }
 ```
 
 ###### Simple Request
@@ -67,20 +67,20 @@ print(result)
   "status": "ok",
   "error": null,
   "data": {
-    "timezone": "America/New_York",
-    "timezone_offset": -240,
-    "date": "2024-05-15",
-    "time": "17:53",
-    "time24": "17:53:17",
-    "time12": "05:53:17 PM",
+    "timezone": "Africa/Harare",
+    "timezone_offset": 120,
+    "date": "2024-07-17",
+    "time": "17:19",
+    "time24": "17:19:42",
+    "time12": "05:19:42 PM",
     "day": "Wednesday",
-    "month": "May",
+    "month": "July",
     "year": "2024",
-    "unix": "1715809997",
-    "dst": true,
-    "dst_start": "2024-05-15 17:53:17",
-    "dst_end": "2024-05-15 17:53:17",
-    "dst_name": "EDT"
+    "unix": "1721229582",
+    "dst": false,
+    "dst_start": "2024-07-17 17:19:42",
+    "dst_end": "2024-07-17 17:19:42",
+    "dst_name": "CAT"
   }
 }
 ```
